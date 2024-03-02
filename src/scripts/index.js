@@ -49,7 +49,7 @@ const createWindow = () => {
 
   // Load the title bar HTML content and send it to the renderer process
   const titleBarContent = fs.readFileSync(
-    path.join(templatesPath, "titleBar.html"),
+    path.join(templatesPath, "nav-bar.html"),
     "utf8",
   );
   mainWindow.webContents.on("dom-ready", () => {
