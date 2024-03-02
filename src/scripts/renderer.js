@@ -15,6 +15,6 @@ ipcRenderer.on('load-title-bar', (event, titleBarContent) => {
   document.getElementById('title-bar-container').innerHTML = titleBarContent;
 
   // Attach event listeners to your custom buttons
-  document.getElementById('minimizeBtn').addEventListener('click', minimizeWindow);
-  document.getElementById('closeBtn').addEventListener('click', closeWindow);
+  document.getElementById('minimise-btn').addEventListener('click', minimizeWindow);
+  document.getElementById('close-btn').addEventListener('click', closeWindow);
 });
